@@ -1,0 +1,26 @@
+default_profile: deepseek-chat
+profiles:
+  - id: deepseek-chat
+    label: DeepSeek Chat（正文）
+    provider: deepseek
+    model: deepseek-chat
+    base_url: https://api.deepseek.com
+    api_key_env: DEEPSEEK_API_KEY
+    temperature: 0.5
+    max_tokens: 8192
+  - id: deepseek-reasoner
+    label: DeepSeek Reasoner（大纲）
+    provider: deepseek
+    model: deepseek-reasoner
+    base_url: https://api.deepseek.com
+    api_key_env: DEEPSEEK_API_KEY
+    temperature: 0.0
+    max_tokens: 8192
+  - id: cursor-composer
+    label: Cursor Composer
+    provider: cursor
+    model: composer-2.5
+    base_url: ""
+    api_key_env: CURSOR_API_KEY
+    temperature: 0.3
+    max_tokens: 4096

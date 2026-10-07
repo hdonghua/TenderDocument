@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+config/secrets.yaml
+knowledge/index/*
+!knowledge/index/.gitkeep
+knowledge/raw/*
+!knowledge/raw/.gitkeep
+!knowledge/raw/示例-信息化项目技术方案.md
+output/*
+!output/.gitkeep
+.streamlit/secrets.toml
+.pytest_cache/
+.idea/
+.vscode/
